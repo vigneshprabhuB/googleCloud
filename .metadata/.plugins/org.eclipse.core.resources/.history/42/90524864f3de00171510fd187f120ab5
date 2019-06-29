@@ -1,0 +1,14 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.InputStream;
+
+
+public class SimpleReader {
+
+	public static void main(String a[]) throws FileNotFoundException{
+		
+		FileReader io=new FileReader(new File("F:/log.txt"));
+		
+	}
+}

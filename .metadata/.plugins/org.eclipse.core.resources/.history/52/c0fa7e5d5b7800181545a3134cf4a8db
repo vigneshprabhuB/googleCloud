@@ -1,0 +1,6 @@
+package com.test.tryyy;
+
+public abstract interface Statatic {
+
+public abstract  void add();
+}

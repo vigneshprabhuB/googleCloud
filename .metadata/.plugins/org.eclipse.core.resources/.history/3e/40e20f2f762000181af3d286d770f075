@@ -1,0 +1,43 @@
+package com.test.pol;
+
+import java.util.ArrayList;
+
+
+public class Numbertoword {
+
+long findNumberOfDigit(Double number){
+	int digit=0;
+	if(number>0){
+	digit=1;
+	while(number>=10){
+		number=number/10;
+		digit=digit+1;
+	}
+	}
+	return digit;	
+}	
+	
+	
+	
+
+   public static void main(String a[]){
+	
+		double number=12;
+		ArrayList<Integer> digitArray=new ArrayList<Integer>();
+		ArrayList<Integer> digitArrayMAinOrder=new ArrayList<Integer>();
+		Numbertoword numbertoword=new Numbertoword();
+		long totalDigits=numbertoword.findNumberOfDigit(number);
+		for(int j=0;j<totalDigits;j++){
+			digitArray.add((int) Math.floor(number/(Math.pow(10, j)) % 10 ));
+		}
+		
+		System.out.println(digitArray);
+		int hundreds=0;
+		if(digitArray.size()>=3){
+		for(int h=0;h<=2;h++){
+			hundreds=hundreds+(int) (digitArray.get(h)*Math.pow(10, h));
+		}}
+		System.out.println(hundreds);
+	}
+
+}

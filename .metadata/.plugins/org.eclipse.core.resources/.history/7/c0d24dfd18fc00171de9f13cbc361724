@@ -1,0 +1,9 @@
+import java.io.File;
+
+public class Simplify {
+	public static void main(String s[]) {
+File ss=new File("F://AutoDir");
+ss.delete();
+	}
+
+}

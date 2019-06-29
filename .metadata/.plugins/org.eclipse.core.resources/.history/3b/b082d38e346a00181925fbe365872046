@@ -1,0 +1,14 @@
+package com.test.tryyy;
+
+import java.util.Iterator;
+
+import com.test.pol.Numbertoword;
+
+public class Statatic {
+
+	public static void main(String a[]) {
+		Iterator<Numbertoword> aa = null;
+
+	}
+
+}

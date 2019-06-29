@@ -1,0 +1,16 @@
+package com.test.pol;
+
+public class ThreadExample {
+	
+	public static void main(String a[]) throws InterruptedException{
+		Thread td=Thread.currentThread();
+	
+		Thread td1=new Thread(ts,"");
+
+		for(int i=0;i<5;i++){
+			System.out.println(i);
+			td.sleep(10000);
+		}
+	}
+
+}

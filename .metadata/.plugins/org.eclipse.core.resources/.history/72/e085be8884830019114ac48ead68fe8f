@@ -1,0 +1,49 @@
+package com.pack.java;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Collectionsss {
+
+	public static void main(String[] args) {
+      
+		
+     List<Emp>itt=new ArrayList<Emp>();
+     itt.add(new Emp(1,"Bharth"));
+     itt.add(101);
+     itt.add(102);
+     itt.add(103);
+     itt.add(104);
+     itt.add(105);
+     System.out.println(Collections.binarySearch(itt, 000));
+     System.out.println(java.time.LocalDateTime.now());
+     
+	}
+}
+
+class Emp {
+	private int empId;
+	private String empName;
+
+	Emp(int empId, String empName) {
+		this.empId = empId;
+		this.empName = empName;
+	}
+
+	public int getEmpId() {
+		return empId;
+	}
+
+	public String getEmpName() {
+		return empName;
+	}
+
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+}

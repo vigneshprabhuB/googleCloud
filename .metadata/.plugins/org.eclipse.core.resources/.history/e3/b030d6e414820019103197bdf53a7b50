@@ -1,0 +1,18 @@
+package com.pack.java;
+
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Collectionsss {
+	
+	public static void main(String[] args) {
+	
+		
+		
+	}
+	
+	
+
+}

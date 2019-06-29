@@ -1,0 +1,35 @@
+package com.pack.java;
+
+public class Listt {
+
+	public static void main(String[] args) {
+		Thread tr = new Thread() {
+			@Override
+			public void run() {
+				new Listt().calculateSum("T1", 10);
+			}
+		};
+		Thread tr2 = new Thread() {
+			@Override
+			public void run() {
+				new Listt().calculateSum("T2", 10);
+			}
+		};
+		tr2.setPriority(1);
+		tr.setPriority(10);
+		tr2.run();
+		tr.run();
+
+	}
+
+	public int calculateSum(String threead, int value) {
+
+		int sum = 1;
+		if (value - 1 >= 1) {
+			sum = value * calculateSum(threead, value - 1);
+		}
+		System.out.println(threead + "--:" + sum);
+		return sum;
+	}
+
+}

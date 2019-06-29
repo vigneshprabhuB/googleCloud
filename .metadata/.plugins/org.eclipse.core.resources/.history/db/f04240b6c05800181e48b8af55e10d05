@@ -1,0 +1,22 @@
+package com.test.tryyy;
+
+public class Tryyyy {
+
+	Thread td=new Thread();
+	public Tryyyy(int priority,String tdname) {
+		td.setName(tdname);
+		td.setPriority(priority);
+		td.start();
+	}
+	void run(){
+		for(int i=0;i<5;i++){
+			System.out.println(td.getName()+":::"+i);
+		}
+	}
+	
+	
+	public static void main(String a[] ){
+		new Tryyyy(5, "td1");
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.test.pol;
+
+public class Numbertoword {
+	
+	public static void main(String a[]){
+		
+		int numberOfDigit=1;
+		
+	}
+
+}

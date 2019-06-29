@@ -1,0 +1,16 @@
+public class Dbg {
+	public static void main(String aSt[]) {
+		int[] a = new int[5];
+		a[0]=1;a[1]=2;a[2]=3;a[3]=4;a[4]=5;
+		int s = a.length;
+		int sa=0;
+		for(int i=0;i<s;i++){
+			if(a[i]==3){
+				sa=a[i];
+				break;
+			}
+		}
+		System.out.println(sa);
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.test.pol;
+
+public class Numbertoword {
+	
+	public static void main(String a[]){
+		
+		int number=102;
+		boolean pass=true;
+		while(pass){
+			
+			int othPlace=number%2;
+			}
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+import java.io.IOException;
+
+import com.itextpdf.text.DocumentException;
+
+public class SimpleReader {
+	static {
+		System.out.println("stats");
+	}
+
+	public static void main(String a[]) throws IOException, DocumentException {
+		String woNumber = "WO12345";
+		String []aat=woNumber.split("WO");
+		System.out.println("PR"+aat[1]+"-"1);
+	}
+}

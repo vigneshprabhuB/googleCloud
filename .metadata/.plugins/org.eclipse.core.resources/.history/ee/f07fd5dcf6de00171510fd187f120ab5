@@ -1,0 +1,11 @@
+import java.io.IOException;
+import java.net.URL;
+
+public class SimpleReader {
+
+	public static void main(String a[]) throws IOException {
+
+		URL url = new URL("http://google.com");
+
+	}
+}

@@ -1,0 +1,33 @@
+package com.test.tryyy;
+
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class ImageManuplation {
+
+	public static void main(String a[]) throws IOException {
+		try {
+			BufferedImage inputImage = null;
+			File ipimageFile = new File("E:\\next.jpg");
+			File out = new File("E:\\next1.jpg");
+			BufferedImage outPut = new BufferedImage(1024, 500, 1);
+			
+			
+			inputImage = ImageIO.read(ipimageFile);
+			
+			// scales the input image to the output image
+			Graphics2D g2d = outPut.createGraphics();
+			g2d.drawImage(inputImage, 0, 0, 200, 100, null);
+			g2d.dispose();
+			ImageIO.write(outPut, "jpg", out);
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+
+	}
+
+}

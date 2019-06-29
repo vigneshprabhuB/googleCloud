@@ -1,0 +1,15 @@
+package com.test.pol;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class Pclass {
+	
+	public static void main(String a[]) throws IOException{
+		
+URL url=new URL("https://fcm.googleapis.com/fcm/send");
+HttpURLConnection con=(HttpURLConnection) url.openConnection();
+con.setRequestMethod("POST");
+}
+}

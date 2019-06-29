@@ -1,0 +1,22 @@
+package com.pack.java;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Collectionsss {
+
+
+	public static void main(String[] args) {
+      
+		
+     List<Integer>itt=new ArrayList<Integer>();
+     itt.add(100);
+     itt.add(100);
+     itt.add(100);
+     itt.add(100);
+     itt.add(100);
+     itt.add(100);
+	}
+	
+}

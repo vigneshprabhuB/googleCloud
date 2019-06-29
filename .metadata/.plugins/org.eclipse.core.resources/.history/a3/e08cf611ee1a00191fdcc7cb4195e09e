@@ -1,0 +1,22 @@
+package com.pack.java;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class TryConstructor {
+
+	
+	public static void main(String[] args) {
+		try(FileReader fReader=new FileReader(new File("F:\\api.txt"))){
+			
+		}catch (FileNotFoundException | ClassNotFoundException e) {
+			// TODO: handle exception
+		}
+	}
+}

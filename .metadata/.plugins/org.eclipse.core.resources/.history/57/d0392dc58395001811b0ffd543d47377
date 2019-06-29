@@ -1,0 +1,17 @@
+package com.test.tryyy;
+
+public class NewThread  {
+
+
+	public static void main(String a[]) {
+
+		
+      	
+
+	}
+
+	
+	public int doSOmething(int currentVal){
+		
+	}
+}

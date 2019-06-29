@@ -1,0 +1,55 @@
+package com.pack.java;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+
+
+public class TryConstructor {
+
+	
+public static void main(String[] args) {
+	
+	List<Integer>a=new ArrayList<Integer>();
+	a.add(11);
+	a.add(12);
+	a.add(1);
+	a.add(5);
+	a.add(3);
+	a.add(2);
+	Collections.sort(a);
+	System.out.println(a);
+}
+}
+
+class Employee{
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	private int id;
+	private String name;
+	private int score;
+	private int salary;
+}

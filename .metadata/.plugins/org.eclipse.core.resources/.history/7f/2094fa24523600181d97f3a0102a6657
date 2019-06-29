@@ -1,0 +1,11 @@
+package com.test.pol;
+
+public class Callerr {
+	
+	public static void main(String a[]) throws InterruptedException{
+		Thread td=Thread.currentThread();
+		td.sleep(1000);
+	}
+
+
+}

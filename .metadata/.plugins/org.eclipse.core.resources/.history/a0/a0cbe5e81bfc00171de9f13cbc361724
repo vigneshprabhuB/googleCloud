@@ -1,0 +1,15 @@
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+
+
+public class Simplify {
+	public static void main(String s[]) throws IOException {
+		FileReader is=new FileReader("F:/controllers");
+		char a[]=new char[3];
+		int charracter=is.read(a);
+		
+	}
+
+}

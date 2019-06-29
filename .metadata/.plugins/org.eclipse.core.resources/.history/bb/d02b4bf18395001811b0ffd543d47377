@@ -1,0 +1,21 @@
+package com.test.tryyy;
+
+public class NewThread  {
+
+
+	public static void main(String a[]) {
+
+	NewThread nt=new NewThread();	
+	nt.doSOmething(2)  ;	
+
+	}
+
+	
+	public int doSOmething(int currentVal){
+		
+		if(currentVal>=0){
+			currentVal=currentVal+doSOmething(currentVal-1);	
+		}
+		return currentVal;
+	}
+}

@@ -1,0 +1,14 @@
+package com.test.tryyy;
+
+public class Tryyyy {
+
+	Thread td=null;
+	public Tryyyy() {
+		// TODO Auto-generated constructor stub
+		td.start();
+	}
+	void run(){
+		
+	}
+
+}

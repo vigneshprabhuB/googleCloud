@@ -1,0 +1,28 @@
+package com.pack.java;
+
+
+public class FunctionalPrg {
+	public static void main(String[] args) {
+		
+		Numeric q= new Numeric() {
+			
+			@Override
+			public void getNumber(int i) {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+  
+    q.getNumber();
+	}
+
+}
+
+@FunctionalInterface
+interface Numeric {
+	int i=0;
+	public void getNumber(int i );
+	public default void display(){
+		System.out.println(i);
+	}
+}

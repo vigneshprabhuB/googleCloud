@@ -1,0 +1,29 @@
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.pdf.PdfReader;
+import com.itextpdf.text.pdf.PdfStamper;
+
+public class SimpleReader {
+
+	public static void main(String a[]) throws IOException, DocumentException {
+		InputStream pdf = new FileInputStream("F:/Invoice_subreport.pdf");
+		OutputStream ourStream=new FileOutputStream("F:/Invoice1_subreport1.pdf");
+		int bytee=0;
+		while((bytee=pdf.read())!=-1){
+			ourStream.write(bytee);
+		}
+		PdfReader reader = new PdfReader(new FileInputStream("input.pdf"));
+		PdfStamper stamper = new PdfStamper(reader, new FileOutputStream("output.pdf"));
+		int total = reader.getNumberOfPages() + 1;
+		for ( int i=1; i<total; i++) {
+		   reader.setPageContent(i + 1, reader.getPageContent(i + 1));
+		}
+		stamper.setFullCompression();
+		stamper.close();
+	}
+}

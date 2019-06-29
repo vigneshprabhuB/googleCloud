@@ -1,0 +1,17 @@
+package com.pack.java;
+
+
+public class JavaParentClass {
+	public void runn() {
+		System.out.println("PARENT");
+	}
+
+	public static void main(String arg[]) {
+		try {
+		
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
+}

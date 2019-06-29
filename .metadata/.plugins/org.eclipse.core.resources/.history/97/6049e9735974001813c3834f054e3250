@@ -1,0 +1,31 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class DirPermission {
+
+	
+	public static void main(String a9) throws IOException{
+		try{
+			List<Object>intt=new ArrayList<Object>();
+			intt.add(255);
+			intt.add("255");
+			intt.add(new String("hai"));
+			System.out.println(intt);
+		} catch (Exception e) {
+
+		}
+	}
+	
+	public void issueDirectoryPersmission(String directoryName){
+		try{
+			
+
+
+		}catch(Exception e){
+			
+		}
+	}
+}

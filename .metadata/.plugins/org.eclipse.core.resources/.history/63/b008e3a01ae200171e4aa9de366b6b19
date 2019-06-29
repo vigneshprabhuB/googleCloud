@@ -1,0 +1,37 @@
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+
+import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.pdf.PdfReader;
+import com.itextpdf.text.pdf.PdfStamper;
+
+public class SimpleReader {
+
+	public static void main(String a[]) throws IOException, DocumentException {
+
+/*		PdfReader reader = new PdfReader(new FileInputStream("F:/fp_dc_setup_guide.pdf"));
+		PdfStamper stamper = new PdfStamper(reader, new FileOutputStream("F:/1234.pdf"));
+		int total = reader.getNumberOfPages() + 1;
+		for ( int i=1; i<total; i++) {
+		   reader.setPageContent(i + 1, reader.getPageContent(i + 1));
+		}
+		stamper.setFullCompression();
+		stamper.close();*/
+		
+		
+		
+		PdfStamper stamper = new PdfStamper(reader, fs, PdfWriter.VERSION_1_5);
+		PdfWriter writer = stamper.Writer;
+		writer.SetPdfVersion(PdfWriter.PDF_VERSION_1_5);
+		writer.CompressionLevel = pdf.PdfStream.BEST_COMPRESSION;
+		reader.RemoveFields();
+		reader.RemoveUnusedObjects();
+		stamper.Reader.RemoveUnusedObjects();
+
+		stamper.SetFullCompression();
+		stamper.Writer.SetFullCompression();
+		stamper.Close();
+	}
+}

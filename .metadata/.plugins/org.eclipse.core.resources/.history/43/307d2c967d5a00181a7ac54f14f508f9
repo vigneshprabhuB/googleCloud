@@ -1,0 +1,19 @@
+package com.pack.java;
+
+import org.json.JSONObject;
+
+public class JavaParentClass {
+	public void runn(){
+		System.out.println("PARENT");
+	}
+	
+	public static void main(String arg[]){
+		try{
+		JSONObject obj=new JSONObject();
+		obj.put("a", 1);
+		System.out.println(obj.has("b"));
+	}catch(Exception e){
+		System.out.println(e.getMessage());
+	}}
+
+}

@@ -1,0 +1,14 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.text.DecimalFormat;
+
+public class Statatic {
+
+	public static void main(String a[]) throws IOException {
+		DecimalFormat decimalFormat = new DecimalFormat(".##");
+		java.lang.Double val = 1233.0;
+		System.out.println(decimalFormat.format(val));
+
+	}
+}

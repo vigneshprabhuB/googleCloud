@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.pack.java.Comparator&apos; to &apos;Comparatorre&apos;&#x0D;&#x0A;- Original project: &apos;DBG&apos;&#x0D;&#x0A;- Original element: &apos;com.pack.java.Comparator&apos;&#x0D;&#x0A;- Renamed element: &apos;com.pack.java.Comparatorre&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Comparator&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.pack.java{Comparator.java[Comparator" matchStrategy="1" name="Comparatorre" qualified="false" references="true" similarDeclarations="false" stamp="1550567036279" textual="false" version="1.0"/>
+</session>

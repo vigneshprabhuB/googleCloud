@@ -1,0 +1,24 @@
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+public class SimpleReader {
+
+	public static void main(String a[]) throws IOException {
+
+InputStream Is=new FileInputStream("F:/Invoice_subreport.pdf");
+OutputStream os=new FileOutputStream("F:/Invoice_subreport_cpy.pdf");
+byte []buff=new byte[10];
+int numberOfBytes;
+         while((numberOfBytes=Is.read(buff))!=-1){
+         
+            os.write((char)numberOfBytes);
+            System.out.println((byte)numberOfBytes);
+            
+         }
+         System.out.println('');
+  
+	}
+}

@@ -1,0 +1,13 @@
+package com.test.tryyy;
+
+public class Staccc {
+
+	public static void main(String arg[]) {
+		new Staccc().doIt(5);
+	}
+
+	public void doIt(int number) {
+		doIt(number-1);
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.pack.java;
+
+import java.util.HashSet;
+import java.util.Set;
+
+
+public class Collectionsss {
+	
+	public static void main(String[] args) {
+	
+		Set<Integer>sett=new HashSet<Integer>();
+		
+	}
+	
+	
+
+}

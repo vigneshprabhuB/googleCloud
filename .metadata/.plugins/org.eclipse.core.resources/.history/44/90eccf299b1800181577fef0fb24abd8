@@ -1,0 +1,11 @@
+package com.test.pol;
+
+class ClassObj extends Cclasss {
+
+	public static void main(String arg[]) {
+		
+		Localleee l=new Localleee("en","men");
+	}
+
+
+}

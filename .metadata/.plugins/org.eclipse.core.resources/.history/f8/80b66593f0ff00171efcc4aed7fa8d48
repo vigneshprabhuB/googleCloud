@@ -1,0 +1,33 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+
+public class FileCopy {
+	
+	public static void main(String ar[]) throws SQLException{
+		
+		try {
+			Class.forName("org.postgresql.Driver");
+			String MySQLURL = "jdbc:postgresql://35.166.105.223:5432/SMS";
+			Connection con=DriverManager.getConnection(MySQLURL,"postgres","admin");
+			PreparedStatement s=con.prepareStatement("SELECT *from base.m_user");
+			ResultSet rs=s.executeQuery();
+			while(rs.next()){
+				System.out.println(rs.getInt(1));
+			}
+			
+			
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		
+	}
+
+
+}

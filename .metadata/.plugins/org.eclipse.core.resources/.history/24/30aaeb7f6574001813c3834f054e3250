@@ -1,0 +1,17 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+
+public class DirPermission {
+
+	public static void main(String a9[]) throws IOException {
+
+		
+		new DirPermission().additionOfAllnum(2);
+	}
+
+	public int additionOfAllnum(int number) {
+		System.out.println(number);
+		return number;
+	}
+}

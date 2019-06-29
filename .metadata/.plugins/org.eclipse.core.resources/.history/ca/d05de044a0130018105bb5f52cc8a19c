@@ -1,0 +1,23 @@
+package com.test.pol;
+
+public class ClassObj extends JavaParentClass {
+	
+	public static void main(String arg[]){
+	Cclasss c=new ClassObj();
+	Cclasss b=new ClassObj();
+	c.runn();
+	Cclasss a=c;
+	if(a.equals(c)){
+		System.out.println("BOTH A AND C HAVE SAME REFERENCE:"+c.hashCode());
+		if(c.equals(b)){
+			System.out.println("BOTH A ,B AND C HAVE SAME REFERENCE:"+c.hashCode());
+		}else{
+			System.out.println("B HAVE DIFFERENT : "+b.hashCode());
+		}
+		
+	}
+	}
+///*	public void runn(){
+//		System.out.println("CHILD");
+//	}*/
+}

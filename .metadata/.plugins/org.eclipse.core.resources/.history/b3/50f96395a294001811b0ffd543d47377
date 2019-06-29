@@ -1,0 +1,26 @@
+package com.test.tryyy;
+
+public class NewThread implements Runnable {
+
+	Thread td=null;
+	public NewThread(int priority,int id) {
+	td=new Thread(this);
+	td.setPriority(priority);
+	td.setName(Integer.toString(id));
+	td.start();
+	}
+	@Override
+	public void run() {
+		
+		System.out.println(td.);
+
+	}
+
+	public static void main(String a[]) {
+		
+		String bString="";
+		System.out.println(bString);
+		
+	}
+
+}

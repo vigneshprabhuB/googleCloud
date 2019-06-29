@@ -1,0 +1,19 @@
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+
+public class Classexmp {
+	
+	public static void main (String arg[]) throws ClassNotFoundException, InstantiationException, IllegalAccessException,
+			IOException {
+
+		URL url = new URL("http:localhost:8080/NH/updateCustomerApprovalPurchaseReq.svc");
+		HttpURLConnection con=(HttpURLConnection) url.openConnection();
+		//con.setRequestProperty(key, value);
+		OutputStream os=con.getOutputStream();
+	
+	}
+}

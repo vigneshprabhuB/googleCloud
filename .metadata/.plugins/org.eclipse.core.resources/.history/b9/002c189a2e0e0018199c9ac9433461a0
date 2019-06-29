@@ -1,0 +1,10 @@
+
+public class Classexmp {
+	
+	public static void main (String arg[]){
+		
+    Class.forName("");
+		
+	}
+
+}

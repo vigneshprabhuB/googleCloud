@@ -1,0 +1,20 @@
+package com.test.tryyy;
+
+public class Statatic {
+
+	public int hai() {
+		System.out.println("haii method");
+	}
+	
+	public void setVal(int id){
+		
+	}
+	
+
+	public void main(String a[]) {
+	 	
+    Statatic statatic=new Statatic();
+    
+		
+	}
+}

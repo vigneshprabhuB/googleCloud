@@ -1,0 +1,25 @@
+package com.test.pol;
+
+
+public class Numbertoword {
+
+int findNumberOfDigit(int number){
+	if(number>0){
+	int digit=1;
+	}
+	while(number>=10){
+		
+	}
+	
+	return number;	
+}	
+	
+	
+	public static void main(String a[]){
+		int number=1021;
+		
+		
+		
+	}
+
+}

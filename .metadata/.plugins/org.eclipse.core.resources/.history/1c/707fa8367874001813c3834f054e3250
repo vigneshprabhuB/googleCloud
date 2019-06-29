@@ -1,0 +1,20 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.text.ParseException;
+
+public class DirPermission {
+
+	public static void main(String a9[]) throws IOException, ParseException {
+		new DirPermission().additionOfAllnum(5);
+	}
+
+	public void additionOfAllnum(int number) {
+	if(number>0){	
+		int numberr=--number;
+		additionOfAllnum(numberr);
+		
+		System.out.println(number);
+	}
+	}
+}

@@ -1,0 +1,26 @@
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Simplify {
+	public static void main(String s[]) throws IOException {
+		FileReader is = new FileReader("F:/controllers.txt");
+
+		int byteVal = 0;
+		String sample = "";
+		while ((byteVal = is.read()) != -1) {
+			sample = sample + (char) byteVal;
+			String filename = "";
+
+			if (sample.contains("src=\"")) {
+				sample = "";
+				while ((byteVal = is.read()) != -1
+						&& (byteVal = is.read()) != 34) {
+					sample = sample + (char) byteVal;
+					filename = sample;
+				}
+			}
+
+		}
+	}
+
+}

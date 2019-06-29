@@ -1,0 +1,12 @@
+package com.test.pol;
+
+import java.util.Date;
+
+public class ThreadSample {
+	public static void main(String ar[]) {
+System.out.println(new Date().getYear()+1);
+	
+	}
+	
+	
+}

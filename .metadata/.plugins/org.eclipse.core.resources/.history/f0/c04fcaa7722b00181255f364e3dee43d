@@ -1,0 +1,9 @@
+package com.test.pol;
+
+public class ThreadSample {
+	
+	public void run(){
+	System.out.println("HAI");	
+	}
+
+}

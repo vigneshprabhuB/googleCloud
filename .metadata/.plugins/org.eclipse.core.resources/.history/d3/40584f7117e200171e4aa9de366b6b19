@@ -1,0 +1,37 @@
+import java.util.List;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class SimpleReader {
+
+	public static void main(String a[]) throws IOException {
+		List<String> out = new ArrayList<String>();
+		List<String> saa = new ArrayList<String>();
+		saa.add("A");
+		saa.add("B");
+		saa.add("C");
+		saa.add("D");
+		saa.add("E");
+		int totalSiz = saa.size();
+		for (int y = 0; y < totalSiz; y++) {
+			int outSiz = saa.size();
+			for (int j = 0; j < outSiz; j++) {
+				out.add((String) saa.get(j));
+			}
+		}
+		System.out.println(out);
+		List<String>finalllList=new ArrayList<String>();
+		int finalaa = out.size();
+		for (int l = 1; l <=finalaa; l++) {
+		if(l%2==0){
+			finalllList.add("");
+		}else{
+			finalllList.add(out.get(l-1));
+		}
+		}
+		String aa="";
+		System.out.println(finalllList);
+		System.out.println(finalllList.size()/saa.size());
+		//for(){}
+	}
+}

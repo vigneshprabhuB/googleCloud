@@ -1,0 +1,14 @@
+package com.pack.java;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Threaddd {
+
+	public static void main(String[] args) {
+		List<Integer> list =  Arrays.stream(new int[]{10,11,2,1,-1,-233,12,-21,3}).boxed().filter(a1->a1>=0).sorted().mapToInt();
+	    System.out.println(list);  in
+	 
+	   	}
+}

@@ -1,0 +1,18 @@
+package com.test.pol;
+
+class ClassObj extends Cclasss {
+
+	public static void main(String arg[]) {
+		Object str = new String("b");
+		Pclass p=new Pclass();
+		System.out.println(str.hashCode());
+		str="";
+		str=str+"a";
+		System.out.println(str.hashCode());
+		System.out.println(p.hashCode());
+	}
+
+	public void runn() {
+		System.out.println("CHILD");
+	}
+}

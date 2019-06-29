@@ -1,0 +1,59 @@
+package com.test.pol;
+
+import java.util.ArrayList;
+
+public class Numbertoword {
+
+	int gettheDevisor(int number) {
+		int numberOfZeros = 0;
+		boolean pass = true;
+		while (pass) {
+			number = number / 10;
+			numberOfZeros = numberOfZeros + 1;
+			if (number < 10) {
+				pass = false;
+			}
+		}
+		return numberOfZeros;
+	}
+
+	int getThedevisorNumber(int number) {
+		return this.gettheDevisor(number) - 1;
+	}
+//position, number
+	String getWords(int positionIndex,int number){
+		return null;
+		
+	}
+	
+	
+	
+	public static void main(String a[]) {
+		ArrayList<Integer> intArray = new ArrayList<Integer>();
+		int number = 100;
+		int actualNumber = number;
+		Numbertoword findTotalDigit = new Numbertoword();
+		boolean pass = true;
+		while (pass) {
+			intArray.add((int) ((int) (number) % Math.pow(10,
+					findTotalDigit.gettheDevisor(number))));// deviser
+			// next digit
+			int nextDigit = findTotalDigit.getThedevisorNumber(number);
+			number = (int) (number / (Math.pow(10, nextDigit)));
+			if (nextDigit == 0) {
+				intArray.add((int) ((int) (number) / Math.pow(10,
+						findTotalDigit.gettheDevisor(number))));
+				pass = false;
+			}
+
+		}
+
+		int maxSize=intArray.size();
+		
+		for(int i=maxSize-1;i<=0;i--){
+			
+		}
+
+	}
+
+}

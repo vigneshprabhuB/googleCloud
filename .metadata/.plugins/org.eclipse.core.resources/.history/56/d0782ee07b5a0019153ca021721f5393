@@ -1,0 +1,18 @@
+package com.pack.java;
+
+import java.util.Optional;
+
+public class Listt {
+
+	public static void main(String[] args) {
+	Optional<Integer>aa=Optional.empty();
+	 Integer a=new Integer(5);
+	 aa.of(a);
+	 System.out.println(aa);
+	}
+	
+
+	
+	
+	
+}

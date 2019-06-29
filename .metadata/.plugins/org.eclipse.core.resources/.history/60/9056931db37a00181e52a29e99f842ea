@@ -1,0 +1,17 @@
+package com.test.tryyy;
+
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class Staccc {
+	 
+	public static void main(String arg[]) throws IOException {
+		FileWriter fw=new FileWriter("F:\\intialise.txt");
+	for(int i=0;i<2097152;i++){
+	System.out.println();
+	fw.write("int a"+i+"="+i+";");
+	}
+	}
+
+
+}

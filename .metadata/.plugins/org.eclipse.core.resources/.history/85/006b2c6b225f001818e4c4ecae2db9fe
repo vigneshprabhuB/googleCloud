@@ -1,0 +1,22 @@
+package com.pack.java;
+
+
+public class JavaParentClass {
+
+	public static void main(String arg[]) {
+		Process p = null;
+		Runtime runtime = Runtime.getRuntime();
+		try {
+
+			 ProcessBuilder builder = new ProcessBuilder(
+			"cmd.exe", "/c", "cd \"C:\\Users\\User\\Desktop\\vitalmedBkup.bat");
+			 builder.redirectErrorStream(true);
+		       p = builder.start();
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		} finally {
+
+		}
+	}
+}

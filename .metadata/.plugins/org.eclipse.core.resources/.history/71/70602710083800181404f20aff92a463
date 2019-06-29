@@ -1,0 +1,34 @@
+package com.test.pol;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class Callerr {
+	
+	
+public static void main(String a[]){
+	try{
+	List<String> importCeid=new ArrayList<String>();
+	Class.forName("org.postgresql.Driver");
+	Connection con=DriverManager.getConnection("jdbc:postgresql://localhost:5432/SMS","postgres","admin");
+	String qerry="";
+	qerry="select ceid from  master.ce_id_pmscheduling";
+	Statement st=con.createStatement();
+	ResultSet rs=st.executeQuery(qerry);
+	while(rs.next()){
+		
+		importCeid.add(rs.getString(1))
+	}
+	System.out.println("OVER");
+	}catch(Exception e){
+		System.out.println("ERROR"+e);
+	}
+	
+}	
+
+}

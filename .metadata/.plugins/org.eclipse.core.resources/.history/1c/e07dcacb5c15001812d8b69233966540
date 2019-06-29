@@ -1,0 +1,13 @@
+package com.test.pol;
+
+class ClassObj extends Cclasss {
+
+	public static void main(String arg[]) {
+		Object str = new String("a");
+		System.out.println(str.g);
+	}
+
+	public void runn() {
+		System.out.println("CHILD");
+	}
+}

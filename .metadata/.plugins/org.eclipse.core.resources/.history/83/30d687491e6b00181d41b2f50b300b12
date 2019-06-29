@@ -1,0 +1,23 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+
+public class Statatic {
+
+	public static void main(String a[]) throws IOException {
+		
+		
+		List<Object>strList=new ArrayList<Object>();
+		strList.add("1");
+		strList.add("7");
+		strList.add("4");
+		//Collections.sort((Ob) strList);
+		Collections.reverse(strList);
+		System.out.println("");
+	}
+
+}

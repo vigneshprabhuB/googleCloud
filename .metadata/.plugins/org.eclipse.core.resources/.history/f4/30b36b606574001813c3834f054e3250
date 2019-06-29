@@ -1,0 +1,14 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+
+public class DirPermission {
+
+	public static void main(String a9[]) throws IOException {
+
+	}
+
+	public int additionOfAllnum(int number) {
+		
+	}
+}

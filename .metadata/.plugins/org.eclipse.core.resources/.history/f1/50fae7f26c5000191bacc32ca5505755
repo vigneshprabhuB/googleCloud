@@ -1,0 +1,16 @@
+package com.pack.java;
+
+public class Listt<T> extends MianList {
+	{
+		System.out.println("Instance BLOCk");
+	}
+
+}
+
+class MianList {
+
+	public static void doo() {
+		System.out.println("main");
+
+	}
+}

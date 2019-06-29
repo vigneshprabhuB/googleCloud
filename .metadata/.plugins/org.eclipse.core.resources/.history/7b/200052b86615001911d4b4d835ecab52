@@ -1,0 +1,16 @@
+package com.pack.java;
+
+public class TryConstructor {
+	
+	public int getA() {
+		return a;
+	}
+	private final int a;
+	public TryConstructor(int a){
+		this.a=a;
+	}
+
+public static void main(String[] args) {
+	new TryConstructor();
+}
+}

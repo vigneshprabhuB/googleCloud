@@ -1,0 +1,21 @@
+package com.pack.java;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FunctionalPrg {
+	public static void main(String[] args) {
+     List<Integer>intList=new ArrayList<Integer>();
+     intList.add(10);
+     intList.add(11);
+     
+  
+    
+	}
+
+}
+
+@FunctionalInterface
+interface Numeric {
+	public void getNumber(inti );
+}

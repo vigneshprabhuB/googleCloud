@@ -1,0 +1,27 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.util.Calendar;
+import java.util.Date;
+
+public class Propertiees {
+	
+	
+public static void main(String a[]) throws IOException{
+
+	System.out.print(getFirstDateOfMonth(new Date()));
+	
+}
+public static Date getFirstDateOfMonth(Date date){
+    Calendar cal = Calendar.getInstance();
+    cal.setTime(date);
+    cal.set(Calendar.DAY_OF_MONTH, cal.getActualMinimum(Calendar.DAY_OF_MONTH));
+    return cal.getTime();
+}
+public static Date getLastDateOfMonth(Date date){
+    Calendar cal = Calendar.getInstance();
+    cal.setTime(date);
+    cal.set(Calendar.DAY_OF_MONTH, cal.getActualMaximum(Calendar.DAY_OF_MONTH));
+    return cal.getTime();
+}
+}

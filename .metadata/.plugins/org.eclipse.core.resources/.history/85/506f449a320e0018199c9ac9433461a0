@@ -1,0 +1,11 @@
+
+public class Classexmp {
+	
+	public static void main (String arg[]) throws ClassNotFoundException, InstantiationException, IllegalAccessException{
+		
+   
+    Pclass pc=new Pclass();
+    pc.runn();
+  
+
+}}

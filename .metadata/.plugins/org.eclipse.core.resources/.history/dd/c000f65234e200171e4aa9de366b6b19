@@ -1,0 +1,29 @@
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.URL;
+import java.net.URLConnection;
+
+import com.itextpdf.text.DocumentException;
+
+public class SimpleReader {
+	static{
+		System.out.println("stats");
+	}
+
+	public static void main(String a[]) throws IOException, DocumentException {
+int aaa=10000000;
+		while(!(aaa<=0)){
+		URL url = new URL("http://cmms.trimedxindia.com/trimedx/loginUser.svc?username=TRIMEDXADMIN&password=trimedx123");
+		URLConnection con= url.openConnection();
+		InputStream is=con.getInputStream();
+		OutputStream os=new FileOutputStream("F:/response.html");
+		byte bytee=0;
+		while((bytee=(byte) is.read())!=-1){
+			os.write(bytee);
+		}
+		os.close();
+		aaa--;
+	}}
+}

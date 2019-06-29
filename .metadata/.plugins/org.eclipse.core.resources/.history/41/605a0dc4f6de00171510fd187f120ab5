@@ -1,0 +1,21 @@
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+
+
+
+public class SimpleReader {
+
+	public static void main(String a[]) throws IOException{
+		
+		InputStream fr=new FileInputStream("F:/log.txt");
+		Output
+		while(fr.read()!=-1){
+			
+		}
+	}
+}

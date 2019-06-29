@@ -1,0 +1,18 @@
+package com.pack.java;
+
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class JavaParentClass {
+
+	public static void main(String arg[]) {
+		try {
+			URL url=new URL("htttp://www.google.com");
+			HttpURLConnectionurl.openConnection();
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
+}

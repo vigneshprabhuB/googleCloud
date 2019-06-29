@@ -1,0 +1,45 @@
+package com.pack.java;
+
+public class TryConstructor {
+	
+private int a;
+
+@Override
+public int hashCode() {
+	final int prime = 31;
+	int result = 1;
+	result = prime * result + a;
+	return result;
+}
+
+@Override
+public boolean equals(Object obj) {
+	if (this == obj)
+		return true;
+	if (obj == null)
+		return false;
+	if (getClass() != obj.getClass())
+		return false;
+	TryConstructor other = (TryConstructor) obj;
+	if (a != other.a)
+		return false;
+	return true;
+}
+
+public int getA() {
+	return a;
+}
+
+public void setA(int a) {
+	this.a = a;
+}
+
+public static void main(String[] args) {
+TryConstructor tryConstructor=	new TryConstructor();
+tryConstructor.setA(10);
+System.out.println(tryConstructor.hashCode());
+TryConstructor tryConstructor1=	new TryConstructor();
+tryConstructor1.setA(10);
+System.out.println(tryConstructor1.hashCode());
+}
+}

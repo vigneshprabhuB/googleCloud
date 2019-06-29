@@ -1,0 +1,16 @@
+package com.pack.java;
+
+public class Threaddd implements Runnable{
+
+@Override
+public void run(){
+	System.out.println(Thread.currentThread().getName());
+}
+	
+public static void main(String[] args) {
+	Thread t1=new Thread(new Threaddd());
+	System.out.println(Thread.activeCount() );
+}
+	
+
+}

@@ -1,0 +1,38 @@
+import java.util.List;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import com.itextpdf.text.DocumentException;
+
+public class SimpleReader {
+	static {
+		//System.out.println("stats");
+	}
+
+	public static void main(String a[]) throws IOException, DocumentException {
+		System.out.println(5/2);
+			
+List<String>s=new ArrayList<String>();
+s.add("A");
+s.add("B");
+s.add("C");
+s.add("D");
+s.add("E");
+if(s.size()%2!=0){
+	int listSize=s.size();
+	int lastVal=listSize;
+	int midvalue=listSize/2+1;
+	for(int j=0;j<listSize;j++){
+		for(int k=0;k<j;k++){
+			System.out.print("  ");
+		}
+		System.out.println(s.get(j));
+		if(midvalue<3){
+		for(int hh=0;hh<listSize-2;hh++){
+			System.out.print("  ");
+		}	
+		}
+	}
+}
+	}
+}

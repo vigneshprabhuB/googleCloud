@@ -1,0 +1,11 @@
+package com.pack.java;
+
+public class Calculatee {
+	
+	public static void main(String[] args) {
+		String a="Vignesh";
+		System.out.println(a.length());
+		
+	}
+
+}

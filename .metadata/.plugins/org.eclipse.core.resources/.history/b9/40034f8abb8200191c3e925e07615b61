@@ -1,0 +1,15 @@
+package com.pack.java;
+
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+
+public class Collectionsss {
+	{
+		System.out.println("Objcreated ...");
+	}
+	
+	
+	
+
+}

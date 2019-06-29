@@ -1,0 +1,21 @@
+package com.test.tryyy;
+
+public class Statatic {
+    
+	private int cValue=0;
+	public int hai() {
+		return this.cValue;
+	}
+	
+	public void setVal(int id){
+		
+	}
+	
+
+	public void main(String a[]) {
+	 	
+    Statatic statatic=new Statatic();
+    
+		
+	}
+}

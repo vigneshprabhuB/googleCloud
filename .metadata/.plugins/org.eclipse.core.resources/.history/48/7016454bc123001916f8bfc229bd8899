@@ -1,0 +1,10 @@
+package com.pack.java;
+
+
+public class TryConstructor {
+
+	
+public static void main(String[] args) {
+	
+}
+}

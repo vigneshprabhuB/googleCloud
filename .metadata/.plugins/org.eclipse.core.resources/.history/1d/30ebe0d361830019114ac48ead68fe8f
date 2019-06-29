@@ -1,0 +1,24 @@
+package com.pack.java;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+
+public class Collectionsss {
+
+
+	public static void main(String[] args) {
+      
+		
+     List<Integer>itt=new ArrayList<Integer>();
+     itt.add(100);
+     itt.add(101);
+     itt.add(102);
+     itt.add(103);
+     itt.add(104);
+     itt.add(105);
+     System.out.println(Collections.binarySearch(itt, 000));
+	}
+	
+}

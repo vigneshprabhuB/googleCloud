@@ -1,0 +1,17 @@
+package com.test.tryyy;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.io.IOException;
+
+
+public class Statatic {
+
+	public static void main(String a[]) throws IOException {
+		
+		List<HashMap<String, Object>>aa=new ArrayList<HashMap<String,Object>>();
+
+	}
+
+}

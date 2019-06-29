@@ -1,0 +1,20 @@
+package com.pack.java;
+
+
+public class JavaParentClass {
+
+	public static void main(String arg[]) {
+		Process p = null;
+		Runtime runtime = Runtime.getRuntime();
+		try {
+
+			Runtime rt=Runtime.getRuntime();
+			rt.exec(command);
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		} finally {
+
+		}
+	}
+}

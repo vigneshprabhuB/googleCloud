@@ -1,0 +1,32 @@
+package com.pack.java;
+
+public class Listt extends MianList {
+	Listt(){
+		super(); 
+	
+	}
+
+	{
+		System.out.println("OBJECT CREATED"); 
+	}
+
+	public static void main(String[] args) {
+		new Listt();
+		Listt.doo();
+		
+	}
+
+	public static void doo() {
+		System.out.println("child"); 
+		
+	}
+
+}
+
+class MianList {
+
+	public static void doo() {
+		System.out.println("main");
+
+	}
+}

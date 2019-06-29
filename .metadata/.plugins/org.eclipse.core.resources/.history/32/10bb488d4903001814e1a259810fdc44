@@ -1,0 +1,6 @@
+package com.test.pol;
+public class Pclass {
+public void runn(){
+	System.out.println("runn PRIMAR CLASS");
+}
+}

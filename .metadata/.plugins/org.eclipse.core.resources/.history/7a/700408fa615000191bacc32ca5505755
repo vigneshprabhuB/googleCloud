@@ -1,0 +1,29 @@
+package com.pack.java;
+
+public class Listt<T> extends MianList {
+	// T stands for "Type"
+	private T t;
+
+	public void set(T t) {
+		this.t = t;
+	}
+
+	public T get() {
+		return t;
+	}
+	
+	public static void main(String[] args) {
+		Listt listt=	new Listt<Integer>();
+		listt.set("asdasdas");
+		System.out.println(listt.get());
+	}
+
+}
+
+class MianList {
+
+	public static void doo() {
+		System.out.println("main");
+
+	}
+}

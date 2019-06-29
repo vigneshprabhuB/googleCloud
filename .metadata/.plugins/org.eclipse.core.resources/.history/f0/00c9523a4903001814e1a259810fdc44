@@ -1,0 +1,14 @@
+package com.test.pol;
+
+
+
+public class Cclasss extends Pclass{
+
+	public void runn(){
+		System.out.println("Secondary class");
+	}
+	public static void main(){
+		Pclass p=new Cclasss();
+		 p.runn();
+	}
+}

@@ -1,0 +1,9 @@
+package com.pack.java;
+
+public class TryConstructor {
+	
+	private final int a=0;
+	public TryConstructor(){
+		
+	}
+}

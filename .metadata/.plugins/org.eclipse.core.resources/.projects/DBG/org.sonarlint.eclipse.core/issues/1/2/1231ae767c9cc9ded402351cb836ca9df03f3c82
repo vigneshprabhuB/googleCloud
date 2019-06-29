@@ -1,0 +1,12 @@
+
+Zsquid:S1604"(Make this anonymous inner class a lambda(ïßŒ±úÿÿÿÿHÌ_RMAJORZ
+CODE_SMELL
+„squid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ×¯„øÿÿÿÿHÍ_RMINORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÃµÉ®ýÿÿÿÿHÎ_RMAJORZ
+CODE_SMELL
+|squid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜¼æƒHÏ_RMINORZ
+CODE_SMELL
+‹squid:S1210Q"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.( îéçúÿÿÿÿHÐ_RMINORZ
+CODE_SMELL

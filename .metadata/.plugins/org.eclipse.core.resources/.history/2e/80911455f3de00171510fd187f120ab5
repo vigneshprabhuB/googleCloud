@@ -1,0 +1,12 @@
+import java.io.FileReader;
+import java.io.InputStream;
+
+
+public class SimpleReader {
+
+	public static void main(String a[]){
+		
+	InputStream io=new FileReader("F:/log.txt")	
+		
+	}
+}

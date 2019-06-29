@@ -1,0 +1,28 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DirPermission {
+
+	public static void main(String a9[]) throws IOException, ParseException {
+		SimpleDateFormat sdf=new SimpleDateFormat("yyyy-MM-dd");
+		Date dt=sdf.parse("2017-03-17");
+		
+		long startedTime=dt.getTime();
+		long currentTime=new Date().getTime();
+		long presentTime=currentTime-startedTime;
+		System.out.println(presentTime/( 1000*60*60*24*365));
+	}
+
+	public void additionOfAllnum(int number) {
+	if(number>=0){	
+		System.out.println(number);
+		int numberr=--number;
+		additionOfAllnum(numberr);
+		System.out.println("end"+numberr);
+	}
+	}
+}

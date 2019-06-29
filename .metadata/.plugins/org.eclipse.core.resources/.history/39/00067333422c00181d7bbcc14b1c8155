@@ -1,0 +1,9 @@
+package com.test.pol;
+
+public class ThreadSample {
+	public static void main(String ar[]) {
+		String aa="(34,27,55,48,25,32,17,28,36,26,77,38,18,4,30,50,33,39,6,40,62,19,29,2,3,61,35,31,76,5,63,9,37,24,64)"
+	}
+	
+	
+}

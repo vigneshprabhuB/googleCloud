@@ -1,0 +1,13 @@
+package com.test.tryyy;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Statatic {
+
+	public static void main(String a[]) throws IOException,InterruptedException {
+		Runtime.getRuntime().exec(new String[] {"cmd", "/K", "Start"});
+	}
+
+}

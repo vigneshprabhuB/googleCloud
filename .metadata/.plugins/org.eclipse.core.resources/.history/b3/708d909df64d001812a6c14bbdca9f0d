@@ -1,0 +1,11 @@
+package com.test.tryyy;
+
+public class SimpleTry {
+	
+	
+	public static void main(String ar[]){
+		String a="aaa'a";
+		System.out.println(a);
+	}
+
+}

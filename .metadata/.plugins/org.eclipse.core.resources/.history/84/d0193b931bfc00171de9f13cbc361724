@@ -1,0 +1,12 @@
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.InputStream;
+
+
+public class Simplify {
+	public static void main(String s[]) throws FileNotFoundException {
+		FileReader is=new FileReader("F:/controllers");
+		is.read()
+	}
+
+}

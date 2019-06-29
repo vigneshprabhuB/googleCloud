@@ -1,0 +1,18 @@
+package com.pack.java;
+
+public class TryConstructor {
+	
+private int a;
+
+public int getA() {
+	return a;
+}
+
+public void setA(int a) {
+	this.a = a;
+}
+
+public static void main(String[] args) {
+TryConstructor tryConstructor=	new TryConstructor();
+}
+}

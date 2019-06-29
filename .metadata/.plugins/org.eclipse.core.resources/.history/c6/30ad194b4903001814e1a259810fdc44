@@ -1,0 +1,16 @@
+package com.test.pol;
+
+import javax.print.DocFlavor.STRING;
+
+
+
+public class Cclasss extends Pclass{
+
+	public void runn(){
+		System.out.println("Secondary class");
+	}
+	public static void main(String a[]){
+		Pclass p=new Cclasss();
+		 p.runn();
+	}
+}

@@ -1,0 +1,6 @@
+package com.pack.java;
+
+public class TryConstructor {
+	
+private int a;
+}

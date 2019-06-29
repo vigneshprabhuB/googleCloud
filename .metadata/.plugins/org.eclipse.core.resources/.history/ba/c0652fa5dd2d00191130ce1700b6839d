@@ -1,0 +1,54 @@
+package com.pack.java;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+
+
+public class TryConstructor {
+
+	
+public static void main(String[] args) {
+	
+List<Employee>emplIst=new ArrayList<>();
+Employee e1=new Employee();
+emplIst.add(e1);
+}
+}
+
+class Employee implements Comparable<Employee>{
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getScore() {
+		return score;
+	}
+	public void setScore(int score) {
+		this.score = score;
+	}
+	public int getSalary() {
+		return salary;
+	}
+	public void setSalary(int salary) {
+		this.salary = salary;
+	}
+	private int id;
+	private String name;
+	private int score;
+	private int salary;
+	@Override
+	public int compareTo(Employee e) {
+	return this.id-e.getId();
+	}
+	
+}

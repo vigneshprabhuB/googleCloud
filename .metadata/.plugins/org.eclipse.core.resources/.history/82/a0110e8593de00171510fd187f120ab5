@@ -1,0 +1,11 @@
+import java.awt.List;
+import java.io.File;
+
+public class FindNotWrittenFolders {
+
+	public static void main(String arg[]) {
+    File file_source=new File("F:/assets");
+    String[] souce=file_source.list();
+		
+	}
+}

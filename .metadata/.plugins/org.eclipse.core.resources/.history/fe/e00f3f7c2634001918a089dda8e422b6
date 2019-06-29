@@ -1,0 +1,14 @@
+package com.pack.java;
+
+public class Comparatorre {
+	
+	
+
+}
+
+class Employees{
+	private int empId;
+	private String empName;
+	private double empSalary;
+	private date dob;
+}

@@ -1,0 +1,22 @@
+package com.test.tryyy;
+
+public class NewThread implements Runnable {
+
+	
+	public NewThread() {
+		
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void main(String a[]) {
+		
+		String bString="";
+		System.out.println(bString);
+		
+	}
+
+}

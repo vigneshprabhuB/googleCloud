@@ -1,0 +1,5 @@
+public class Pclass {
+public void runn(){
+	System.out.println("runn PRIMAR CLASS");
+}
+}

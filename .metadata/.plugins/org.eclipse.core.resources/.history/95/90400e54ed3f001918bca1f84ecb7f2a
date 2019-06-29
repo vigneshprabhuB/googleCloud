@@ -1,0 +1,16 @@
+package com.pack.java;
+
+public class FunctionalPrg {
+	public static void main(String[] args) {
+		Numeric numeric=()-> System.out.println("hai");
+		numeric.getNumber();
+	
+}
+
+
+}
+
+@FunctionalInterface
+interface Numeric {
+	public void getNumber();
+}

@@ -1,0 +1,20 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+
+public class Statatic {
+
+	public static void main(String a[]) throws IOException,
+			InterruptedException {
+String [] as=new String[1];
+as[0]="cmd";
+		Process ps = Runtime.getRuntime().exec(as);
+		java.io.OutputStream os = (OutputStream) ps.getOutputStream();
+		String string="start calc";
+		PrintWriter out=new PrintWriter(os);
+		out.println(string);
+	}
+
+}

@@ -1,0 +1,16 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.util.ResourceBundle;
+
+public class Tryyyy {
+
+	public static void main(String a[]) throws IOException {
+	try {
+			System.out.println("haaaa");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+}

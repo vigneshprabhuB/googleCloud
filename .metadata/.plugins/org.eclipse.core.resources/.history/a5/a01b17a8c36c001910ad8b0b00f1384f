@@ -1,0 +1,30 @@
+package com.pack.java;
+
+public class Threaddd implements Runnable{
+
+@Override
+public void run(){
+	System.out.println(Thread.currentThread().getName());
+	try {
+		Thread.sleep(1000);
+	} catch (InterruptedException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+}
+	
+public static void main(String[] args) {
+	Thread t1=new Thread(new Threaddd());
+	Thread t2=new Thread(new Threaddd());
+	Thread t3=new Thread(new Threaddd());
+	t1.start();
+	t2.start();
+	t3.start();   
+	
+	System.out.println(Thread.activeCount() );
+	
+	
+}
+	
+
+}

@@ -1,0 +1,17 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.text.ParseException;
+
+public class DirPermission {
+
+	public static void main(String a9[]) throws IOException, ParseException {
+		//System.out.println(new DirPermission().additionOfAllnum(6));
+		
+		long amount=12345;
+		String amountStr=Long.toString(amount);
+		char[]amounts=amountStr.toCharArray();
+	}
+
+
+}

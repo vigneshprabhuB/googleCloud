@@ -1,0 +1,17 @@
+package com.pack.java;
+
+public class Listt {
+	public  Listt() {
+		super();
+		
+	}
+	
+	{
+		System.out.println("Instance BLOCk");
+	}
+
+
+	public static void main(String[] args) {
+		new Listt();
+	}
+}

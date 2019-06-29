@@ -1,0 +1,23 @@
+package com.test.tryyy;
+
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
+
+public class ImageManuplation {
+	
+	
+	
+	public static void main(String a[]) throws IOException{
+		BufferedImage bI=new BufferedImage(512, 512, 1);
+		File imageFile=new File("E:\\next.pg");
+		File out=new File("E:\\next1.jpg");
+		bI=ImageIO.read(imageFile);
+	
+		ImageIO.write(bI,"jpg",out);
+		
+	}
+
+}

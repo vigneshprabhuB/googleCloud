@@ -1,0 +1,20 @@
+package com.pack.java;
+
+public class Listt {
+
+	{
+		System.out.println("OBJECT CREATED");
+	}
+	
+	public static void main(String[] args) {
+		new Listt();
+		new Listt();
+	}
+}
+
+public class MianList{
+	
+	public static void doo(){
+		System.out.println("main");
+	}
+}

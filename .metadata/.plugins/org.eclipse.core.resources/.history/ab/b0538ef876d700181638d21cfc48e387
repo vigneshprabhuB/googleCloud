@@ -1,0 +1,16 @@
+package com.test.tryyy;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class Propertiees {
+	
+	
+public static void main(String a[]){
+
+	Properties properties=new Properties();
+	FileInputStream fileInputStream=new FileInputStream("E:\\E_SAMS\\LABELS\\default_msg_en.properties");
+	properties.load(inStream);
+}
+
+}

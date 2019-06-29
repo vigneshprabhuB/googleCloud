@@ -1,0 +1,15 @@
+package com.test.pol;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.net.ssl.HttpsURLConnection;
+
+public class Pclass {
+	public static void main(String a[]) throws IOException{
+		
+java.net.URL url=new URL("http://192.168.1.183:8080/NH");
+HttpsURLConnection connection=(HttpsURLConnection) url.openConnection();
+}
+}

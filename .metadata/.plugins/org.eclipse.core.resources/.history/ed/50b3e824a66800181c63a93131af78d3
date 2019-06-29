@@ -1,0 +1,19 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+
+public class Statatic {
+
+	public static void main(String a[]) throws IOException,
+			InterruptedException {
+
+		Process ps = Runtime.getRuntime().exec("cmd");
+		java.io.OutputStream os = (OutputStream) ps.getOutputStream();
+		String string="ping  192.168.1.151";
+		PrintWriter out=new PrintWriter(os);
+		out.println();
+	}
+
+}

@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.io.File;
+
+public class FindNotWrittenFolders {
+
+	public static void main(String arg[]) {
+		List <String>non=new ArrayList<String>();
+    File file_source=new File("F:/assets");
+    String[] souceFold=file_source.list();
+    File file_dest=new File("F:/assetsCopy");	
+    String[] destFold=file_dest.list();
+    int srclength=souceFold.length;
+    int destlength=destFold.length;    
+    for(int i=0;i<srclength;i++){
+    Boolean yesFlag=true;
+    for(int j=0;j<destlength;j++){
+    	if((souceFold[i].equals(destFold[j]))){
+    		yesFlag=true;
+    	}
+    }	
+    if(!yesFlag){
+    	non.add(souceFold[i]);
+    }
+    System.out.println(non);
+    }
+    
+	}
+}

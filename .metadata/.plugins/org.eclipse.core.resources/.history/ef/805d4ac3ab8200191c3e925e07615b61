@@ -1,0 +1,24 @@
+package com.pack.java;
+
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Map;
+import java.util.TreeMap;
+
+
+public class Collectionsss {
+	
+	public static void main(String[] args) {
+	
+		
+		Map<String,String>m=new TreeMap<String, String>();
+		m.put(null, null);
+		m.put("a", null);
+		m.put("c", "a");
+		m.put("d", "a");
+		System.out.println(m);
+	}
+	
+	
+
+}

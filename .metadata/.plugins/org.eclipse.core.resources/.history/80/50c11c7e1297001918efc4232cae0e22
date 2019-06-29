@@ -1,0 +1,13 @@
+package com.pack.java;
+
+public class Calculatee {
+	
+	public static void main(String[] args) {
+		Double min=90.0;
+		System.out.println();
+		String a=Double.toString(min/60)+"."+Double.toString((min%60/60)*60);
+	
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.pack.java;
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class Concurrrenrr {
+	public static void main(String[] args) {
+		
+		ArrayList<Integer>integers=new ArrayList<Integer>();
+		for(int i=0;i<100;i++){
+			integers.add(i);
+		}
+
+		ListIterator<Integer>it=integers.listIterator();
+		while(it.hasNext()){
+			System.out.println(it.next());
+			
+		}
+		
+	}
+
+}

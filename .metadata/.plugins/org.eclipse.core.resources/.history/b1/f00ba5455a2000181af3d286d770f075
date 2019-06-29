@@ -1,0 +1,15 @@
+package com.test.pol;
+
+public class Numbertoword {
+	
+	public static void main(String a[]){
+		
+		int number=102;
+		int numberOfDigit=1;
+		while(true){
+			
+		}
+		
+	}
+
+}

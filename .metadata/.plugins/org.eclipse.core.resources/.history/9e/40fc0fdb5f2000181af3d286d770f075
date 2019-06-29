@@ -1,0 +1,41 @@
+package com.test.pol;
+
+import java.util.ArrayList;
+
+
+public class Numbertoword {
+	
+	int gettheTotalDigits(int number){
+		int numberOfZeros=0;
+		boolean pass=true;
+		while(pass){
+			number=number/10;
+			numberOfZeros=numberOfZeros+1;
+			if(number<10){
+				pass=false;
+				
+			}
+		}
+		return numberOfZeros;
+	}
+
+	
+	public static void main(String a[]){
+		ArrayList<Integer> intArray=new ArrayList<Integer>();
+		int number=102;
+		Numbertoword findTotalDigit=new Numbertoword();
+		boolean pass=true;
+		while(pass){
+			intArray.add((int) ((int)  (number) % Math.pow(10,findTotalDigit.gettheTotalDigits(number))) );//deviser
+		 pass=false;
+		}
+	
+		
+	
+		
+		
+		
+		
+	}
+
+}

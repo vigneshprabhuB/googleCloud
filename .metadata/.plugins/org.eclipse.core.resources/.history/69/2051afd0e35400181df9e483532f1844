@@ -1,0 +1,39 @@
+package com.test.tryyy;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
+public class SimpleTry {
+
+	public static void main(String ar[]) {
+		Static int financialYearStartMonth=4; 
+		SimpleTry simpleTry=new SimpleTry();
+		List<Integer>monthArray=simpleTry.bulidMonthArray(4);
+		System.out.println(monthArray);
+	}
+	
+	public List<Integer> bulidMonthArray(int financialStartMonth) {
+		int staryMont = financialStartMonth;
+		int monthArraySize = 0;
+		List<Integer> totalMonths = new ArrayList<Integer>();
+		while (monthArraySize <= 11) {
+			if (staryMont <= 12) {
+				totalMonths.add(staryMont);
+				staryMont++;
+				monthArraySize++;
+			}
+			if (staryMont > 12) {
+				totalMonths.add(staryMont - 12);
+				staryMont++;
+				monthArraySize++;
+			}
+
+		}
+		
+		return totalMonths;
+
+	}
+
+}

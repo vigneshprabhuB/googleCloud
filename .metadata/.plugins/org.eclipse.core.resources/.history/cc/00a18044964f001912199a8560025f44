@@ -1,0 +1,23 @@
+package com.pack.java;
+
+import java.text.DateFormat;
+import java.util.Locale;
+
+public class Listt {
+
+	public static void main(String[] args) {
+
+	System.out.println(DateFormat.getDateInstance(DateFormat.SHORT, Locale.US).toString());
+	}
+
+	public int calculateSum(int value) {
+
+		int sum = 1;
+		if (value - 1 >= 1) {
+			sum = value * calculateSum(value - 1);
+		}
+
+		return sum;
+	}
+
+}

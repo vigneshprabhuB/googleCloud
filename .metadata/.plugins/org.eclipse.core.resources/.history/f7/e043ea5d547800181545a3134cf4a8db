@@ -1,0 +1,43 @@
+package com.test.tryyy;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DirPermission {
+
+	public static void main(String a9[]) {
+
+		String inputt = "fbhjsdhfsfdjsdjfsdfjddghsfhdsjf";
+		char[] inputArray = inputt.toCharArray();
+		int totalLength = inputArray.length;
+		List<Character> inputCharss = new ArrayList<Character>();
+
+		// adding to array
+		for (int i = 0; i < totalLength; i++) {
+			inputCharss.add(inputArray[i]);
+		}
+
+		while (inputCharss.size() > 0) {
+			int as = 0;
+			int count = 0;
+			for (int ad = 0; ad < inputCharss.size(); ad++) {
+				if (inputCharss.get(as).equals(inputCharss.get(ad))) {
+					count = count + 1;
+					
+
+				}
+			}
+
+			System.out.println("count of " + inputCharss.get(as) + " is "+ count);
+			
+			char delChar = inputCharss.get(as);
+			//to deleteee compaired values
+			while (inputCharss.contains(delChar)) {
+				inputCharss.remove(inputCharss.indexOf(delChar));
+
+			}
+		}
+
+	}
+
+}

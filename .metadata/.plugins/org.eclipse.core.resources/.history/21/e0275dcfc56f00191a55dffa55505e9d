@@ -1,0 +1,8 @@
+package com.pack.java;
+
+public class Threaddd {
+
+	public static void main(String[] args) {
+		
+	}
+}

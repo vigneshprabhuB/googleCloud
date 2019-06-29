@@ -1,0 +1,31 @@
+package com.vignesh.google.clouddStoreage;
+
+import com.google.auth.oauth2.GoogleCredentials;
+import com.google.cloud.storage.Storage;
+import com.google.cloud.storage.StorageOptions;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	public static void main(String... args) throws Exception {
+	    // Instantiates a client
+		String PROJECT_ID = "my-project";
+		String PATH_TO_JSON_KEY = "/path/to/json/key";
+		String BUCKET_NAME = "my-bucket";
+		String OBJECT_NAME = "my-object";
+
+		StorageOptions options = StorageOptions.newBuilder()
+		            .setProjectId(PROJECT_ID)
+		            .setCredentials(GoogleCredentials.fromStream(
+		                    new FileInputStream(PATH_TO_JSON_KEY))).build();
+
+		Storage storage = options.getService();
+		Blob blob = storage.get(BUCKET_NAME, OBJECT_NAME);
+		ReadChannel r = blob.reader();
+
+	   	  }
+
+}

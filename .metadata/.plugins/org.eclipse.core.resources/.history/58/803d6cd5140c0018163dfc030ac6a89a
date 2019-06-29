@@ -1,0 +1,37 @@
+package com.test.pol;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class Pclass {
+
+	public static void main(String a[]) throws IOException {
+try{
+		URL url = new URL("https://fcm.googleapis.com/fcm/send");
+		HttpURLConnection con = (HttpURLConnection) url.openConnection();
+		con.setRequestMethod("POST");
+		//connection headers		
+		con.setRequestProperty("Content-Type", "application/json");
+		con.setRequestProperty("Authorization",
+				"key=AAAAdpJIPDM:APA91bF4QiAnrQj4JZBW6PhMlIH2LiyjtUDn0XISwts82BnUqld_uWIau8TQv6SFzE7PfUX97SQjnno3gvY4ShAnPrIl7NNgE-DBbID4m-QpegQys1iYa0ixfhgkNE5VgYDaUruZfXKJ");
+		con.setDoOutput(true);
+		OutputStream os = con.getOutputStream();
+		String s = "{\r\n \"to\" : \"dWRS_SaZPjk:APA91bFk2HLF_fZoQEJ9ZtHn4qJFnL8Bt1mDBR4ACrn27NsfYEzfKftIKY5081ntdl5-pHwaBPwg2It-u7-NLUilGHhx1D9m3a54C5RlTKvNaERKQibn9V7gT_gj7tF3QKBgdx2y9ZMH\",\r\n \"content_available\":true,\r\n \"notification\":{\"title\":\"BM CALL\",\"body\":\"Call assigned at Cbe\"},\"data\":{\"extra\":\"s\"}\r\n \r\n}";
+		os.write(s.getBytes());
+		os.flush();
+		os.close();
+		InputStream io=con.getInputStream();
+		int bytevalue=0;
+		while((bytevalue=io.read())!=-1){
+			System.out.print((char)bytevalue);
+		}
+	}catch(Exception e){
+		
+	}
+	
+	}
+	
+}

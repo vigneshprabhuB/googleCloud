@@ -1,0 +1,8 @@
+package com.pack.java;
+
+public class Listt {
+
+	{
+		System.out.println("OBJECT CREATED");
+	}
+}

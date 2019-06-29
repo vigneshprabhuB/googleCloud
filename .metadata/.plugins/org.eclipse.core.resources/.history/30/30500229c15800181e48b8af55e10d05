@@ -1,0 +1,25 @@
+package com.test.tryyy;
+
+public class Tryyyy implements Runnable {
+
+	Thread td=null;
+	public Tryyyy(int priority,String tdname) {
+		System.out.println("LL");
+		td=new Thread(tdname);
+		System.out.println("LL");
+		//td.setPriority(priority);
+		td.start();
+	}
+	public void run(){
+		System.out.println("LL");
+		for(int i=0;i<5;i++){
+			System.out.println(td.getName()+":::"+i);
+		}
+	}
+	
+	
+	public static void main(String a[] ){
+		new Tryyyy(5, "td1");
+	}
+
+}

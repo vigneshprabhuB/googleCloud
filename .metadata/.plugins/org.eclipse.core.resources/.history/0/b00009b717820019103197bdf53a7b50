@@ -1,0 +1,23 @@
+package com.pack.java;
+
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
+
+public class Collectionsss {
+	
+	public static void main(String[] args) {
+	
+		
+		Map<String,String>m=new ConcurrentHashMap<String, String>();
+		m.put("b", "a");
+		m.put("a", "a");
+		m.put("c", "a");
+		m.put("d", "a");
+		System.out.println(m);
+	}
+	
+	
+
+}

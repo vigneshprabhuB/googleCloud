@@ -1,0 +1,10 @@
+public class Dbg {
+	public static void main(String aSt[]) {
+		int[] a = new int[5];
+		int s = a.length;
+		for(){
+			
+		}
+	}
+
+}

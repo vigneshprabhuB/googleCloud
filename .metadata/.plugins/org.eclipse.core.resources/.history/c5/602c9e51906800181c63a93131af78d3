@@ -1,0 +1,22 @@
+package com.test.tryyy;
+
+public class Statatic {
+	
+	
+	public static void hai(){
+		int i=0;
+		System.out.println("hai static...");
+		
+	}
+	public void haii(){
+		
+		System.out.println("haii static...");
+		Statatic.hai();
+	}
+	
+	
+	public static void main(String a[]){
+		new Statatic().haii();
+	}
+
+}

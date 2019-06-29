@@ -1,0 +1,16 @@
+package com.pack.java;
+
+import java.util.Stack;
+
+
+public class Collectionsss {
+	
+	public static void main(String[] args) {
+	
+		
+		Stack<Integer>a=new Stack<Integer>();
+	}
+	
+	
+
+}

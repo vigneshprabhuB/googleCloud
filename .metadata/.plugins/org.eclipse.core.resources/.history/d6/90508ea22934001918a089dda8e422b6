@@ -1,0 +1,68 @@
+package com.pack.java;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.List;
+
+public class Comparatorre {
+	
+	public static void main(String[] args) {
+		List<Employees>employees=new ArrayList<>();
+		Employees employees1=new Employees();
+		employees1.setEmpId(11);
+		employees.add(employees1);
+		Employees Employees2=new Employees();
+		Employees2.setEmpId(1);
+		employees.add(Employees2);
+        Collections.sort(employees);
+       
+	}
+	
+	public static Comparator<Employees> SALARY_SORT(){
+	
+			@Override
+			public int compare(Employees o1, Employees o2) {
+				// TODO Auto-generated method stub
+				return 0;
+			};
+	}
+
+}
+
+class Employees implements Comparable<Employees>{
+	private int empId;
+	private String empName;
+	private double empSalary;
+	private Date dob;
+	public int getEmpId() {
+		return empId;
+	}
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+	public String getEmpName() {
+		return empName;
+	}
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+	public double getEmpSalary() {
+		return empSalary;
+	}
+	public void setEmpSalary(double empSalary) {
+		this.empSalary = empSalary;
+	}
+	public Date getDob() {
+		return dob;
+	}
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+	@Override
+	public int compareTo(Employees o) {
+		
+		return this.empId-o.empId;
+	}
+}

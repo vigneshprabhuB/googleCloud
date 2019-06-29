@@ -1,0 +1,19 @@
+package com.pack.java;
+
+
+public class JavaParentClass {
+
+	public static void main(String arg[]) {
+		Process p = null;
+		Runtime runtime = Runtime.getRuntime();
+		try {
+
+			 p = Runtime.getRuntime().exec("cmd.exe /c start cd \"E:\\oxyzen-workspace\\BrightleafDesktop\\Obligation Extractions\" && dir");
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		} finally {
+
+		}
+	}
+}

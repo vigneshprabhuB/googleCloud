@@ -1,0 +1,21 @@
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
+
+public class SimpleReader {
+
+	public static void main(String a[]) throws IOException {
+String res="";
+		URL url = new URL("http://google.com");
+		URLConnection con=url.openConnection();
+		InputStream is=con.getInputStream();
+		int bytee=0;
+		byte []barry=new byte[100];
+		is.read(barry);
+		while((is.read(barry)) ){
+			res=res+(char)bytee;
+		}
+		System.out.println(res);
+	}
+}

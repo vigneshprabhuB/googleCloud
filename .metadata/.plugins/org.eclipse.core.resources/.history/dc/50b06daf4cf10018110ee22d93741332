@@ -1,0 +1,16 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+
+public class Propertiees {
+	
+	
+public static void main(String a[]) throws IOException{
+
+	
+	System.out.print(java.time.Year.now());
+	System.out.print(java.time.Month.values());
+	
+}
+
+}

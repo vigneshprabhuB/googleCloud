@@ -1,0 +1,12 @@
+package com.test.pol;
+
+import javax.servlet.http.HttpServlet;
+
+public class FirstServlet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 779568211134838394L;
+
+}

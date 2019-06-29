@@ -1,0 +1,23 @@
+package com.pack.java;
+
+
+
+
+public class JavaParentClass {
+
+
+	public static void main(String arg[]) {
+		try {
+		new JavaParentClass().hha();
+		new JavaParentClass().hha();
+
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+	
+public void hha(){
+	String a=new String();
+	System.out.println(super.hashCode());
+}
+}

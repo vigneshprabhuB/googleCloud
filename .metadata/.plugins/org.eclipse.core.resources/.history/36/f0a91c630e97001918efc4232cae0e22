@@ -1,0 +1,15 @@
+package com.pack.java;
+
+public class Calculatee {
+	
+	public static void main(String[] args) {
+		String a="Vignesh";
+
+
+		for(int i=0;i<a.length();i++){
+		a=a.substring(a.length()-1)+a.substring(0,a.length()-1);	
+		}
+		
+	}
+
+}

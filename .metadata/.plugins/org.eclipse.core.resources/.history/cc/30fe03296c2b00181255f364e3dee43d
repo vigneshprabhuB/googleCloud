@@ -1,0 +1,12 @@
+package com.test.pol;
+
+public class ThreadExample {
+	
+	public static void main(String a[]){
+		Thread td=Thread.currentThread();
+		for(int i=0;i<4;i++){
+			
+		}
+	}
+
+}

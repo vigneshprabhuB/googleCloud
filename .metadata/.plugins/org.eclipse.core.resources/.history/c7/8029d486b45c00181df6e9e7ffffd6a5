@@ -1,0 +1,19 @@
+package com.pack.java;
+
+
+public class JavaParentClass {
+	public void runn() {
+		System.out.println("PARENT");
+	}
+
+	public static void main(String arg[]) {
+		try {
+			StringBuilder aaa=new StringBuilder();
+			aaa.append("as:s");
+			System.out.println(aaa.toString().replace(":", ""));
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
+}

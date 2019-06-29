@@ -1,0 +1,21 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+import java.util.Locale;
+import java.util.ResourceBundle;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+public class Statatic {
+
+	public static void main(String a[]) throws IOException, JSONException {
+
+			
+			Locale locale=new Locale("en", "us");
+			ResourceBundle rb=ResourceBundle.getBundle("MasterMessages",locale);
+			System.out.println("\u0BA8\u0BA9\u0BCD\u0BB1\u0BBF" );
+		
+
+	}
+}

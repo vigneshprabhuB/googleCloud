@@ -1,0 +1,14 @@
+package com.test.tryyy;
+
+public class Statatic {
+
+	public void hai() {
+		System.out.println("haii method");
+	}
+
+	public void main(String a[]) {
+	 	
+    Statatic statatic=new Statatic();
+		
+	}
+}

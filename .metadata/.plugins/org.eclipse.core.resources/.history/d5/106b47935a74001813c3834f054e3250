@@ -1,0 +1,21 @@
+package com.test.tryyy;
+
+import java.io.IOException;
+
+public class DirPermission {
+
+	public static void main(String a9[]) throws IOException {
+		try {
+		
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+	}
+
+	public void additionOfAllnum(int number) {
+		if(!(number<0)){
+			number=number+additionOfAllnum(number);
+		}
+	
+	}
+}

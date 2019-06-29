@@ -1,0 +1,27 @@
+package com.pack.java;
+
+public class Listt extends B {
+	public Listt() {
+		super();
+		
+	}
+
+public static void main(String[] args) {
+	
+}
+
+
+}
+
+class B{
+	int i=0;
+	public int getI(){
+		return this.i;
+	}
+	B(int i){
+	this.i=i;	
+	}
+	B(){
+		
+	}
+}
