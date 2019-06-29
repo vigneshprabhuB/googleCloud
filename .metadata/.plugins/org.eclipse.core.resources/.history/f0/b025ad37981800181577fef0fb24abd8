@@ -1,9 +1,0 @@
-package com.test.pol;
-
-public class Localleee {
-
-	
-	public Localleee(String country,String gen){
-		
-	}
-}

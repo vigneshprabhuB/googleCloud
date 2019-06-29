@@ -1,9 +1,0 @@
-import java.net.URL;
-
-
-public class Classexmp {
-	
-	public static void main (String arg[]) throws ClassNotFoundException, InstantiationException, IllegalAccessException{
-		
-URL url=new 
-}}

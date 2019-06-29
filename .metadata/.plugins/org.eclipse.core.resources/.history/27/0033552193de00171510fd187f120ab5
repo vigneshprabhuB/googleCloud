@@ -1,9 +1,0 @@
-import java.io.File;
-
-public class FindNotWrittenFolders {
-
-	public static void main(String arg[]) {
-    File file_source=new File("");
-		
-	}
-}

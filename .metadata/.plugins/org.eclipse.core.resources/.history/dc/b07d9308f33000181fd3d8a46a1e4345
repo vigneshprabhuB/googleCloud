@@ -1,8 +1,0 @@
-package com.test.pol;
-
-public class ThreadExample {
-	public static void main(String arg[]){
-	Sammpllle s=new Sammpllle();
-	}
-
-}

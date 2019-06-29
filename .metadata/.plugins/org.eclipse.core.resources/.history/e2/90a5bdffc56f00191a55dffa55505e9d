@@ -1,8 +1,0 @@
-package com.pack.java;
-
-public class Threaddd {
-
-	public static void main(String[] args) {
-		int []a={10,11,1,1,-1,-233};
-	}
-}

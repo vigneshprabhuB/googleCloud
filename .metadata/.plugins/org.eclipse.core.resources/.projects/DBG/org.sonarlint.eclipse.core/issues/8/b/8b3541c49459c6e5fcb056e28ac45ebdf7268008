@@ -1,17 +1,0 @@
-
-q
-squid:S106"9Replace this use of System.out or System.err by a logger.(éÊ‚‡ûÿÿÿÿ8Ëš¥È­-H´qRMAJORZ
-CODE_SMELL
-‹squid:S4276"RRefactor this code to use the more specialised Functional Interface 'IntPredicate'(ÉØ“üÿÿÿÿ8Å–È­-HµqRMINORZ
-CODE_SMELL
-Šsquid:S4276"QRefactor this code to use the more specialised Functional Interface 'IntConsumer'(ÉØ“üÿÿÿÿ8Å–È­-H¶qRMINORZ
-CODE_SMELL
-q
-squid:S106"9Replace this use of System.out or System.err by a logger.(î¿÷úÿÿÿÿ8ÊÛÈ­-H·qRMAJORZ
-CODE_SMELL
-esquid:S1612",Replace this lambda with a method reference.(éÊ‚‡ûÿÿÿÿ8ş¬È­-H¸qRMINORZ
-CODE_SMELL
-hsquid:S1611"/Remove the parentheses around the "i" parameter(éÊ‚‡ûÿÿÿÿ8Ëš¥È­-H¹qRMINORZ
-CODE_SMELL
-squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(…ˆÚ‡8èÑÈ­-HºqRMINORZ
-CODE_SMELL

@@ -1,8 +1,0 @@
-public class Pclass {
-public void runn(){
-	System.out.println("runn PRIMAR CLASS");
-}
-static{
-	System.out.println("");
-}
-}

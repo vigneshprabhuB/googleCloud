@@ -1,6 +1,0 @@
-package com.test.tryyy;
-
-public abstract class Statatic {
-
-public abstract  void add();
-}

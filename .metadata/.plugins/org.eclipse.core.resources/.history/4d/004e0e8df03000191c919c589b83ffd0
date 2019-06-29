@@ -1,8 +1,0 @@
-package com.pack.java;
-
-public class Reflectionn {
-
-	private void hai() {
-		System.out.println("Hai");
-	}
-}

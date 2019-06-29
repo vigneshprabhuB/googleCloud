@@ -1,49 +1,0 @@
-
-vsquid:S1192g"FDefine a constant instead of duplicating this literal "drive" 3 times.(º‡Ç¤HÍkRCRITICALZ
-CODE_SMELL
-‚squid:S1192b"MDefine a constant instead of duplicating this literal "' in parents" 3 times.(ßç”øÿÿÿÿHÎkRCRITICALZ
-CODE_SMELL
-|squid:S1192b"GDefine a constant instead of duplicating this literal " and '" 3 times.(ßç”øÿÿÿÿHÒkRCRITICALZ
-CODE_SMELL
-šsquid:S1319x"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(œÏğ„HÔkRMINORZ
-CODE_SMELL
-›"squid:ClassVariableVisibilityCheckÒ"NMake id a static final constant or non-public and provide accessors if needed.(Â¥ŠˆøÿÿÿÿHÖkRMINORZVULNERABILITY
-˜"squid:ClassVariableVisibilityCheckÓ"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾HØkRMINORZVULNERABILITY
-Ÿ"squid:ClassVariableVisibilityCheckÔ"WMake createdTime a static final constant or non-public and provide accessors if needed.(Ä¤ºHÚkRMINORZVULNERABILITY
-¡"squid:ClassVariableVisibilityCheckÖ"TMake validity a static final constant or non-public and provide accessors if needed.(—µ°ÇşÿÿÿÿHÜkRMINORZVULNERABILITY
- "squid:ClassVariableVisibilityCheckØ"SMake folders a static final constant or non-public and provide accessors if needed.(¦ôõûÿÿÿÿHŞkRMINORZVULNERABILITY
-"squid:ClassVariableVisibilityCheckÙ"QMake files a static final constant or non-public and provide accessors if needed.(…ƒõüÿÿÿÿHàkRMINORZVULNERABILITY
-„squid:S001176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î•ÉæúÿÿÿÿHákRMINORZ
-CODE_SMELL
-squid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú‘Ì|HãkRMINORZ
-CODE_SMELL
-{squid:UselessImportCheck"<Remove this unused import 'com.google.api.client.json.Json'.(´¬¼öüÿÿÿÿHåkRMINORZ
-CODE_SMELL
-psquid:S1155u">Use isEmpty() to check whether the collection is empty or not.(ÙÉù¹ùÿÿÿÿHçkRMINORZ
-CODE_SMELL
-…squid:S2293^"YReplace the type specification in this constructor call with the diamond operator ("<>").(íí×2HékRMINORZ
-CODE_SMELL
-Zsquid:S1125u"(Remove the literal "true" boolean value.(ÙÉù¹ùÿÿÿÿHëkRMINORZ
-CODE_SMELL
-fsquid:S1854|"9Remove this useless assignment to local variable "files".(õ¢Ê™HíkRMAJORZ
-CODE_SMELL
-‹squid:S2293z"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò¯¦¶øÿÿÿÿHïkRMINORZ
-CODE_SMELL
-‹squid:S2293{"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŸëßªşÿÿÿÿHñkRMINORZ
-CODE_SMELL
-†squid:S2293|"YReplace the type specification in this constructor call with the diamond operator ("<>").(õ¢Ê™HókRMINORZ
-CODE_SMELL
-Œsquid:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ŒÃƒœúÿÿÿÿHõkRMINORZ
-CODE_SMELL
-Œsquid:S2293Ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦ôõûÿÿÿÿH÷kRMINORZ
-CODE_SMELL
-Œsquid:S2293Ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(…ƒõüÿÿÿÿHùkRMINORZ
-CODE_SMELL
-}squid:CommentedOutCodeLineV"<This block of commented-out lines of code should be removed.(‰¨‡ùÿÿÿÿHûkRMAJORZ
-CODE_SMELL
-ysquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(‹ŒÕÈHıkRMAJORZ
-CODE_SMELL
-ysquid:CommentedOutCodeLine½"<This block of commented-out lines of code should be removed.(‹ŒÕÈHÿkRMAJORZ
-CODE_SMELL
-ysquid:CommentedOutCodeLine¿"<This block of commented-out lines of code should be removed.(°„úêHlRMAJORZ
-CODE_SMELL

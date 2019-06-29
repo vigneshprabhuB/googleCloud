@@ -1,22 +1,0 @@
-
-jsquid:S1135"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8çè‹œ°-HìqRINFOZ
-CODE_SMELL
-squid:S2293
-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğıŸ8á¿÷—°-HÁqRMINORZ
-CODE_SMELL
-Ä%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78Ğ—‹œ°-HçqRMINORZ
-CODE_SMELL
-qsquid:UselessImportCheck"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ìãŠœ°-HâqRMINORZ
-CODE_SMELL
-l
-squid:S106"9Replace this use of System.out or System.err by a logger.(É„†ú8Í©‚˜°-HáqRMAJORZ
-CODE_SMELL
-`squid:S1481("'Remove this unused "t2" local variable.(ÜÑäıÿÿÿÿ8Ù®°œ°-HÓrRMINORZ
-CODE_SMELL
-_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8çè‹œ°-HëqRMINORZVULNERABILITY
-osquid:S1854("6Remove this useless assignment to local variable "t2".(ÜÑäıÿÿÿÿ8Ù®°œ°-HÒrRMAJORZ
-CODE_SMELL
-„squid:CommentedOutCodeLine*"<This block of commented-out lines of code should be removed.(¡ÌÄÃıÿÿÿÿ8Ş¿°œ°-H×rRMAJORZ
-CODE_SMELL
-squid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(ÑÀ´•8´Œ¦œ°-HÁrRMAJORZ
-CODE_SMELL

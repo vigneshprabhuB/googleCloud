@@ -1,6 +1,0 @@
-public class Simplify {
-	public static void main(String s[]) {
-System.out.println("sadas");
-	}
-
-}
